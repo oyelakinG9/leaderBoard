@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="headline">Leaderboard</h1>
+        <div class="scoreline">
+            <div class="scoressheet">
+               <div class="wrap">
+                <h2 class="recentScore">Recent Score</h2>
+                <button class="refresh">Refresh</button>
+               </div>
+                <table>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody id="scores">
+                    </tbody>
+                    
+                </table>
+
+            </div>
+            <div class="addscores">
+                <h2 class="addscore-text">Add your score</h2>
+                <input type="text" placeholder="your name">
+                <input type="text" placeholder="your score">
+                <button class="btn-submit">submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="./src/index.js"></script>
+</body>
+</html>
