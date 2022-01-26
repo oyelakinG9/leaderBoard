@@ -7,7 +7,7 @@ const scoreRecord = [
   { name: 'name:', score: 78 },
   { name: 'name:', score: 125 },
   { name: 'name:', score: 77 },
-  { name: 'name:', score: 42 }
+  { name: 'name:', score: 42 },
 ];
 
 const scores = document.querySelector('#scores');
