@@ -1,7 +1,6 @@
-import printMe from './print.js';
 import './style.css';
 
-let scoreRecord = [
+const scoreRecord = [
   { name: 'name:', score: 100 },
   { name: 'name:', score: 20 },
   { name: 'name:', score: 50 },
@@ -16,6 +15,6 @@ const scoreSheet = () => {
   scoreRecord.forEach((score) => {
     scores.innerHTML += `<tr><td>${score.name}</td><td>${score.score}</td></tr>`;
   });
-}
+};
 
 scoreSheet();

@@ -11,7 +11,6 @@ module.exports = {
   devServer: {
     static: './dist',
   },
-  devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Output Management',
