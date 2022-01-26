@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do List (Structure)
+# Leader Board (Structure)
 
 > This project base on the struction of add students scores
 > It contains purely javascript
@@ -18,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://oyelaking9.github.io/todoList/dist/)
+[Live Demo Link](https://oyelaking9.github.io/leaderBoard/dist/)
 
 ## Getting Started:
  Run: npm install (To install all npm package)
@@ -32,7 +32,7 @@ Additional description about the project and its features.
 Clone the project
 
 ```bash
-git clone https://github.com/oyelakinG9/todoList.git
+git clone https://github.com/oyelakinG9/learderBoard.git
 ```
 
 - Install Dependencies
