@@ -28,7 +28,7 @@ Additional description about the project and its features.
 Clone the project
 
 ```bash
-git clone https://github.com/oyelakinG9/todoList.git
+git clone https://github.com/oyelakinG9/learderBoard.git
 ```
 
 - Install Dependencies
@@ -61,16 +61,16 @@ npx hint --telemetry=off .
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/oyelakinG9)
+- Twitter: [@twitterhandle](https://twitter.com/oyelaking1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oyelakin-ridwan-4b4a02b6)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/oyelakinG9/todoList/issues/2).
+Feel free to check the [issues page](https://github.com/oyelakinG9/learderBoard/issues).
 
 
 ## 📝 License
