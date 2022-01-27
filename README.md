@@ -16,6 +16,13 @@ Additional description about the project and its features.
 - Frameworks: NO
 - Technologies used: Github and git flow, VS code
 
+<<<<<<< HEAD
+=======
+## Live Demo
+
+[Live Demo Link](https://oyelaking9.github.io/leaderBoard/dist/)
+
+>>>>>>> d901839a65cf5e32099b0bf0380af889a095b3da
 ## Getting Started:
  Run: npm install (To install all npm package)
  Run: npm run started (To start the code in browser).
