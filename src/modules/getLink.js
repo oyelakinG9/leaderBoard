@@ -14,5 +14,5 @@ const getLink = () => new Promise((resolve) => {
         .slice(13, -6)
         .trim()}/scores/`,
     ));
-});  
+});
 export default getLink;
