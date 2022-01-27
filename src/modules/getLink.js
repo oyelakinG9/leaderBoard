@@ -8,12 +8,11 @@ const getLink = () => new Promise((resolve) => {
       'content-type': 'application/json',
     },
   })
-  .then((res) => res.json())
-  .then((data) => resolve(
-    `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${data.result
-      .slice(13, -6)
-      .trim()}/scores/`,
-  ));
-});
-  
+    .then((res) => res.json())
+    .then((data) => resolve(
+      `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${data.result
+        .slice(13, -6)
+        .trim()}/scores/`,
+    ));
+});  
 export default getLink;
