@@ -16,10 +16,6 @@ Additional description about the project and its features.
 - Frameworks: NO
 - Technologies used: Github and git flow, VS code
 
-## Live Demo
-
-[Live Demo Link](https://oyelaking9.github.io/todoList/dist/)
-
 ## Getting Started:
  Run: npm install (To install all npm package)
  Run: npm run started (To start the code in browser).
