@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do List (Structure)
+# Leader Board (API)
 
 > This project base on the struction of add students scores
 > It contains purely javascript
