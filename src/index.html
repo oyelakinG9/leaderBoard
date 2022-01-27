@@ -15,24 +15,17 @@
             <div class="scoressheet">
                 <div class="wrap">
                     <h2 class="recentScore">Recent Score</h2>
-                    <button class="refresh">Refresh</button>
+                    <button class="refresh" type="button">Refresh</button>
                 </div>
                 <table>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody id="scores">
-                    </tbody>
-
-                </table></div>
+                  <tbody id="scoresBoard"></tbody>
+                </table>
+            </div>
             <div class="addscores">
                 <h2 class="addscore-text">Add your score</h2>
-                <input type="text" placeholder="your name">
-                <input type="text" placeholder="your score">
-                <button class="btn-submit">submit</button>
+                <input type="text" placeholder="your name" name="name" id="name" class="name">
+                <input type="number" placeholder="your score" name="score" id="score" class="score">
+                <button class="btn-submit" type="button">submit</button>
             </div>
         </div>
     </div>
