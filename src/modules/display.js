@@ -5,7 +5,7 @@ const board = document.querySelector('#scoresBoard');
 const display = (name, score) => {
   if (name === undefined || score === undefined) {
     return;
-  }
+  }  
 
   board.appendChild(scoreValue(name, score));
 };

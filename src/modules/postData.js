@@ -3,6 +3,9 @@ import display from './display.js';
 
 const btnSubmit = document.querySelector('.btn-submit');
 const board = document.querySelector('#scoresBoard');
+const errormsg = document.querySelector('.error');
+const successmsg = document.querySelector('.success');
+
 
 async function postScore() {
   const newUrl = await getLink();
@@ -19,8 +22,15 @@ async function postScore() {
         'content-type': 'application/json',
       },
     }).then((res) => res.json());
-    name.value = '';
-    score.value = '';
+    if (name.value == '' || score.value == '') {
+      errormsg.style.display = 'block';
+      successmsg.style.display = 'none';
+    } if (name.value !== '' && score.value !== '') {
+      errormsg.style.display = 'none';
+      successmsg.style.display = 'block';
+      name.value = '';
+      score.value = '';
+    }
   });
   const refresh = document.querySelector('.refresh');
 
