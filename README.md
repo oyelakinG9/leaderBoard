@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leader Board (API)
+# Leader Board (Final Touches)
 
 > This project base on the struction of add students scores
 > It contains purely javascript
