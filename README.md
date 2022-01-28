@@ -1,14 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leader Board (API)
+# Leader Board (Final Touches)
 
 > This project base on the struction of add students scores
 > It contains purely javascript
 > It is build using webpack
 
-![Screenshot (83)](https://user-images.githubusercontent.com/61976324/151200225-71bf8954-945f-4af8-8e69-4b0b6fdfc8e0.png)
+![Screenshot (85)](https://user-images.githubusercontent.com/61976324/151517208-4bd4ed87-d1f0-4931-a87a-bfd6b108531b.png)
 
-Additional description about the project and its features.
+## Additional description about the project and its features.
+- Send and receive data from an API.
+- Use API documentation.
+- Understand and use JSON.
+- Make JavaScript code asynchronous.
 
 ## Built With
 
@@ -17,8 +21,8 @@ Additional description about the project and its features.
 - Technologies used: Github and git flow, VS code
 
 ## Getting Started:
- Run: npm install (To install all npm package)
- Run: npm run started (To start the code in browser).
+ Run: `npm install` (To install all npm package)
+ Run: `npm run start` (To start the code in browser).
 
 ### Prerequisites: 
 - webpack setup
