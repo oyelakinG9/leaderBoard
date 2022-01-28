@@ -6,7 +6,6 @@ const board = document.querySelector('#scoresBoard');
 const errormsg = document.querySelector('.error');
 const successmsg = document.querySelector('.success');
 
-
 async function postScore() {
   const newUrl = await getLink();
   btnSubmit.addEventListener('click', () => {
@@ -22,7 +21,7 @@ async function postScore() {
         'content-type': 'application/json',
       },
     }).then((res) => res.json());
-    if (name.value == '' || score.value == '') {
+    if (name.value === '' || score.value === '') {
       errormsg.style.display = 'block';
       successmsg.style.display = 'none';
     } if (name.value !== '' && score.value !== '') {
