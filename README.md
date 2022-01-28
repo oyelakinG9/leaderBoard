@@ -8,7 +8,11 @@
 
 ![Screenshot (85)](https://user-images.githubusercontent.com/61976324/151517208-4bd4ed87-d1f0-4931-a87a-bfd6b108531b.png)
 
-Additional description about the project and its features.
+## Additional description about the project and its features.
+- Send and receive data from an API.
+- Use API documentation.
+- Understand and use JSON.
+- Make JavaScript code asynchronous.
 
 ## Built With
 
